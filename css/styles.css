@@ -1,0 +1,100 @@
+body {
+	background-color: black;
+	font-family: 'Smooch Sans', sans-serif;
+	
+}
+
+#board {
+	background: url("/img/board.jpg") no-repeat;
+	background-size: contain;
+	position: relative;
+	width: 341.33px;
+	height: 287.66px;
+	top: 50px;
+	margin: auto;
+}
+
+div#messageArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: rgb(83, 175, 19);
+}
+.hit {
+	background: url("/img/ship.png") no-repeat center center;
+	background-size: contain;
+}
+.miss {
+	background: url("/img/miss.png") no-repeat center center;
+	background-size: contain;
+}
+table {
+	border-spacing: 0px; 
+	position: absolute;
+	left: 57px;
+	top: 32px;
+}
+td {
+	width: 30px;
+	height: 30px;
+}
+form {
+	position: absolute;
+	bottom: -31px;
+	right: 58px;
+	padding: 5px;
+	background-color: rgb(83, 175, 19);
+}
+form input {
+	background-color: rgb(152, 207, 113);
+	font-family: 'Smooch Sans', sans-serif;
+	border-color: rgb(83, 175, 19);
+	font-size: 1em;
+}
+
+@media (min-width: 768px) {
+	
+	#board {
+		width: 1024px;
+		height: 863px;
+		margin: auto;
+		top: 0px;
+	}
+	
+	div#messageArea {
+		font-size: 3rem;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		color: rgb(83, 175, 19);
+	}
+	.hit {
+		background: url("/img/ship.png") no-repeat center center;
+	}
+	.miss {
+		background: url("/img/miss.png") no-repeat center center;
+	}
+	table {
+		border-spacing: 0px; 
+		position: absolute;
+		left: 173px;
+		top: 98px;
+	}
+	td {
+		width: 94px;
+		height: 94px;
+	}
+	form {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		margin: auto;
+		padding: 15px;
+		background-color: rgb(83, 175, 19);
+	}
+	form input {
+		background-color: rgb(152, 207, 113);
+		border-color: rgb(83, 175, 19);
+		font-size: 1em;
+	}
+}
