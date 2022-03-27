@@ -4,7 +4,7 @@ body {
 	
 }
 
-#board {
+#game {
 	background: url("/img/board.jpg") no-repeat;
 	background-size: contain;
 	position: relative;
@@ -28,6 +28,7 @@ div#messageArea {
 	background: url("/img/miss.png") no-repeat center center;
 	background-size: contain;
 }
+
 table {
 	border-spacing: 0px; 
 	position: absolute;
@@ -54,7 +55,7 @@ form input {
 
 @media (min-width: 768px) {
 	
-	#board {
+	#game {
 		width: 1024px;
 		height: 863px;
 		margin: auto;
@@ -63,20 +64,9 @@ form input {
 	
 	div#messageArea {
 		font-size: 3rem;
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		color: rgb(83, 175, 19);
 	}
-	.hit {
-		background: url("/img/ship.png") no-repeat center center;
-	}
-	.miss {
-		background: url("/img/miss.png") no-repeat center center;
-	}
+	
 	table {
-		border-spacing: 0px; 
-		position: absolute;
 		left: 173px;
 		top: 98px;
 	}
@@ -85,16 +75,9 @@ form input {
 		height: 94px;
 	}
 	form {
-		position: absolute;
 		bottom: 0px;
 		right: 0px;
 		margin: auto;
 		padding: 15px;
-		background-color: rgb(83, 175, 19);
-	}
-	form input {
-		background-color: rgb(152, 207, 113);
-		border-color: rgb(83, 175, 19);
-		font-size: 1em;
 	}
 }
