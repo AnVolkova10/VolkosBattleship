@@ -5,7 +5,7 @@ body {
 }
 
 #game {
-	background: url("../img/board.jpg") no-repeat;
+	background: url("../Img/board.jpg") no-repeat;
 	background-size: contain;
 	position: relative;
 	width: 341.33px;
@@ -21,11 +21,11 @@ div#messageArea {
 	color: rgb(83, 175, 19);
 }
 .hit {
-	background: url("../img/ship.png") no-repeat center center;
+	background: url("../Img/ship.png") no-repeat center center;
 	background-size: contain;
 }
 .miss {
-	background: url("../img/miss.png") no-repeat center center;
+	background: url("../Img/miss.png") no-repeat center center;
 	background-size: contain;
 }
 
